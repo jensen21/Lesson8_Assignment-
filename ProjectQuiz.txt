@@ -1,7 +1,7 @@
 ************************************************************************
 Project Name:  Recipe Display Application  --  Project Quiz
-Author: 
-Date:   
+Author: Jensen Dietz
+Date: November 10, 2015
 Participation Assignment (25 points)
 ************************************************************************
 
@@ -13,7 +13,7 @@ Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
 
-
+Since jQuery is it’s own library it is best to keep it separate from all the other JavaScript being written. All of the custom, handwritten JavaScript and jQuery should be written in the script.js file. Additionally, the script.js is specifically placed after the jQuery file so that it may reference jQuery functions already defined.
 
 
 ++++++++++++
@@ -21,7 +21,7 @@ Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
 
-
+jQuery doesn't support all versions of Internet Explorer. The older versions are not compatible.
 
 
 
@@ -31,7 +31,7 @@ Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
 
-
+Every jQuery statement starts with $.
 
 
 
@@ -39,3 +39,5 @@ How does every jQuery statement start?
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+
+The Content Delivery Network is a system of distributed servers that deliver webpages and other Web content to a user based on the geographic locations of the user, the origin of the webpage and a content of delivery server. One benefit of CDN is faster content delivery. CDNs place servers as close to a group of users as possible, latency and packet loss are minimized due to a shorter distance traveled. Another benefit is 100 percent availability. The distribution of assests across many regions allow CDNs to have automatic server availability sensing mechanisms with instant user redirection. Control of asset delivery is another benefit. Operators have the ability to deliver real time load statistics, display active regions, optimize capacity per customer, indicate which assets are popular, and report viewing details to their customers. Lastly, decreased server load is a benefit. Content is spread out across several servers, as opposed to offloading them onto one large server. 
